@@ -12,9 +12,6 @@ gem 'rails3-generators'
 gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :branch => "rails3"
 
 gem 'paperclip'
-group :development do
-  gem "pg"
-end
 group :test do
   gem "rspec-rails", ">= 2.0.0.beta.17"
   gem 'cucumber-rails'
@@ -23,6 +20,7 @@ group :test do
 	gem 'capybara'
 	gem 'webrat'
 	gem 'spork'
-  gem 'pickler'	
+  gem 'pickler'
 	gem 'launchy'
 end
+
