@@ -22,5 +22,7 @@ group :test do
 	gem 'spork'
   gem 'pickler'
 	gem 'launchy'
+  gem 'factory_girl_rails'
+  gem 'forgery'
 end
 
