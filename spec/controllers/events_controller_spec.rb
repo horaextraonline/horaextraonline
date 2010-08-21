@@ -7,6 +7,9 @@ describe EventsController do
     it 'should be succes' do
       response.should be_success
     end
+    it 'should render the new template' do
+      response.should render_template :new
+    end
   end
 
   context 'submiting a new event' do
