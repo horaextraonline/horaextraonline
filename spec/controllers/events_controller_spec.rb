@@ -4,12 +4,10 @@ describe EventsController do
 
   context 'creating a new event' do
     before { get :new }
-    it 'should be succes' do
+    it 'should be a success' do
       response.should be_success
     end
-    it 'should render the new template' do
-      response.should render_template :new
-    end
+    it { should render_template :new }
   end
 
   context 'submiting a new event' do
