@@ -8,6 +8,7 @@ gem 'hitch'
 gem 'metric_fu'
 gem 'devise'
 gem 'rails3-generators'
+gem 'haml'
 
 gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :branch => "rails3"
 

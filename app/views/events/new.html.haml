@@ -1,0 +1,21 @@
+%h1 New Event
+
+-form_for Event.new do |f|
+	
+	%p
+	= f.label :name,'name'
+	= f.text_field :name
+	%p
+	= f.label :type, 'type'
+	= f.text_field :type
+	%p
+	= f.label :local, 'local'
+	= f.text_field :local
+	%p
+	= f.label :date_time, 'date_time'
+	= f.text_field :date_time
+	%p
+	= f.label :description, 'description'
+	= f.text_area :description
+	%p
+	= f.submit 'Create'

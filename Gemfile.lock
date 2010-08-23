@@ -94,6 +94,7 @@ GEM
     forgery (0.3.4)
     gherkin (2.1.5)
       trollop (~> 1.16.2)
+    haml (3.0.17)
     highline (1.6.1)
     hirb (0.3.3)
     hitch (0.5.3)
@@ -214,6 +215,7 @@ DEPENDENCIES
   factory_girl_rails
   forgery
   formtastic!
+  haml
   hitch
   launchy
   metric_fu
