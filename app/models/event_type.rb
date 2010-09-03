@@ -5,7 +5,7 @@ class EventType < ActiveRecord::Base
 
   def name_to_plain
     unless self.name.nil?
-      self.plain = self.name.downcase.removeaccents
+      self.plain = self.name.downcase.parameterize
     end
   end
 end
