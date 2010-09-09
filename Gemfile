@@ -13,16 +13,17 @@ gem 'haml'
 gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :branch => "rails3"
 
 gem 'paperclip'
+
 group :test do
   gem "rspec-rails", ">= 2.0.0.beta.17"
   gem 'cucumber-rails'
-	gem 'cucumber'
-	gem 'fabrication'
-	gem 'capybara'
-	gem 'webrat'
-	gem 'spork'
+  gem 'cucumber'
+  gem 'fabrication'
+  gem 'capybara'
+  gem 'webrat'
+  gem 'spork'
   gem 'pickler'
-	gem 'launchy'
+  gem 'launchy'
   gem 'factory_girl_rails'
   gem 'forgery'
 end
