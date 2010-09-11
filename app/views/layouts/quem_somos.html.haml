@@ -8,11 +8,13 @@
     = csrf_meta_tag
     = stylesheet_link_tag :all
     %link{:rel => "shortcut icon", :href => "favicon.ico"}
+    %script{:src  => "http://maps.google.com/maps?file=api&amp;v=2&amp;key=#{google_maps_key}"}
+
     = javascript_include_tag :defaults
-        
     /[if IE]
       %script{:src => "http://html5shiv.googlecode.com/svn/trunk/html5.js"}
-  %body
+    %script{:src => "/users.js"}
+  %body{:onload=>"load()", :onunload=>"GUnload()"}
     %div{:id => "container"}
       %header
         %h1{:id => ""}
@@ -24,3 +26,5 @@
       %section{:id => "main"}
         = yield
       %footer
+
+
