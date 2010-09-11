@@ -11,7 +11,7 @@ gem 'rails3-generators'
 gem 'haml'
 
 gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :branch => "rails3"
-
+gem 'geokit'
 gem 'paperclip'
 
 group :test do
