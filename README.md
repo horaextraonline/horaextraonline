@@ -1,4 +1,4 @@
-## MANUAL DO HORA EXTRA ONLINE
+# MANUAL DO HORA EXTRA ONLINE
 
 ## 1) OBJETIVO
 Aprender codificando, nosso objetivo é codificar qualquer coisa para praticar e trocar experiências. Programar sem compromisso, apenas pelo prazer de escrever código, não importa se é útil, não importa se é bonito, não importa se é completo.
@@ -24,13 +24,15 @@ Em terceiro lugar, encontros acontecem todos os dias a partir das 22:00, mas def
  Repositório do grupo: http://github.com/horaextraonline/horaextraonline
 
 - Instale o Programa TeamSpeak (para as conversas noturnas)
- http://www.teamspeak.com/?page=teamspeak3
+	[TeamSpeak](http://www.teamspeak.com/?page=teamspeak3 "TeamSpeak")
 
-- Instale o RVM (gerenciador de versões para Ruby, assim vc pode ter projetos em versões diferentes do ruby, de forma bem simples)
+  
 
-- Instale o Ruby 1.9.2
-
-- Instale o Rails 3
-
-- Instale o Rspec 2
+> Instale o RVM (gerenciador de versões para Ruby, assim vc pode ter projetos em versões diferentes do ruby, de forma bem simples)
+>
+> Instale o Ruby 1.9.2
+>
+> Instale o Rails 3
+>
+> Instale o Rspec 2
 
