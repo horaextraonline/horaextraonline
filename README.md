@@ -28,11 +28,11 @@ Em terceiro lugar, encontros acontecem todos os dias a partir das 22:00, mas def
 
   
 
-> Instale o RVM (gerenciador de versões para Ruby, assim vc pode ter projetos em versões diferentes do ruby, de forma bem simples)
->
-> Instale o Ruby 1.9.2
->
-> Instale o Rails 3
->
-> Instale o Rspec 2
+- Instale o RVM (gerenciador de versões para Ruby, assim vc pode ter projetos em versões diferentes do ruby, de forma bem simples)
+
+- Instale o Ruby 1.9.2
+
+- Instale o Rails 3
+
+- Instale o Rspec 2
 
