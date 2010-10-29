@@ -187,6 +187,7 @@ GEM
       json_pure
       rubyzip
     sexp_processor (3.0.4)
+    shoulda (2.11.3)
     spork (0.8.4)
     sqlite3-ruby (1.3.1)
     term-ansicolor (1.0.5)
@@ -222,6 +223,7 @@ DEPENDENCIES
   rails (= 3.0.0.rc)
   rails3-generators
   rspec-rails (>= 2.0.0.beta.17)
+  shoulda
   spork
   sqlite3-ruby
   webrat
