@@ -1,0 +1,30 @@
+var map
+function load() {
+  if (GBrowserIsCompatible()) {
+    map = new GMap2(document.getElementById("map"));
+    map.setCenter(new GLatLng(-15.707663, -49.746094), 4);
+    map.addControl(new GLargeMapControl());
+	  
+    var icon = new GIcon(G_DEFAULT_ICON);
+    <% @users.each do |user|%>
+      <% info = "" %>
+      var marker_<%= user.id.to_s %> = new GMarker( 
+                                              new GLatLng(
+                                                <%= user.lat.to_s %>, 
+                                                <%= user.lng.to_s %>
+                                              ) 
+                                              
+                                     );
+      GEvent.addListener(marker_<%= user.id.to_s %>, 'click',function(){
+          var info = "<%= "#{info}"%>";
+          map.openInfoWindowHtml(marker_<%= user.id.to_s %>, info);
+            
+         }
+         );
+      map.addOverlay(marker_<%= user.id.to_s %>)
+    <% end %>
+  }
+}
+
+
+

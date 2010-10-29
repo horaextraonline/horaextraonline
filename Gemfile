@@ -8,10 +8,12 @@ gem 'hitch'
 gem 'metric_fu'
 gem 'devise'
 gem 'rails3-generators'
+gem 'haml-rails'
+gem 'jquery-rails'
 gem 'haml'
 
-gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :branch => "rails3"
-
+gem 'formtastic', ">= 1.1.0"
+gem 'geokit'
 gem 'paperclip'
 
 group :test do
